@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>MqttNetRpc</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--<PackageReference Include="MQTTnet.Extensions.Rpc" Version="3.0.8" />-->
+    <!--<PackageReference Include="MQTTnet.NETStandard" Version="3.0.8" />-->
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3-beta1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\MQTTnet(3)\Source\MQTTnet.Extensions.Rpc\MQTTnet.Extensions.Rpc.csproj" />
+    <ProjectReference Include="..\..\MQTTnet(3)\Source\MQTTnet\MQTTnet.csproj" />
+  </ItemGroup>
+
+</Project>
